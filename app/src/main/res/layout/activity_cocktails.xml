@@ -48,18 +48,19 @@
                 android:divider="#ad5"
                 android:dividerHeight="2dp" />
 
-            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/aperol"
+                    android:id="@+id/aperolimage"
                     android:layout_width="1092px"
                     android:layout_height="262px"
                     app:srcCompat="@drawable/aperol___cocktail_page" />
 
                 <Button
+                    android:id="@+id/aperol"
                     android:layout_width="match_parent"
                     android:layout_height="262px"
                     android:background="@android:color/transparent"></Button>
@@ -164,11 +165,23 @@
                 android:layout_height="262px"
                 app:srcCompat="@drawable/mint_julep___cocktail_page" />
 
-            <ImageView
-                android:id="@+id/imageView25"
-                android:layout_width="1092px"
-                android:layout_height="262px"
-                app:srcCompat="@drawable/mojito___cocktail_page" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/Mojtio"
+                    android:layout_width="1092px"
+                    android:layout_height="262px"
+                    app:srcCompat="@drawable/mojito___cocktail_page" />
+
+                <Button
+                    android:id="@+id/mojito"
+                    android:layout_width="match_parent"
+                    android:layout_height="262px"
+                    android:background="@android:color/transparent"/>
+            </RelativeLayout>
 
             <ImageView
                 android:id="@+id/imageView27"

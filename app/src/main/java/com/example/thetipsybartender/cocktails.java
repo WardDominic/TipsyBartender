@@ -1,21 +1,25 @@
 package com.example.thetipsybartender;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.view.View.OnClickListener;
 import java.util.ArrayList;
 
-public class cocktails extends AppCompatActivity {
+public class cocktails extends AppCompatActivity{
 
     SearchView searchView;
     ListView listView;
     ArrayList<String> list;
     ArrayAdapter<String> adapter;
+
+    Button aperolButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +28,14 @@ public class cocktails extends AppCompatActivity {
 
         searchView = (SearchView) findViewById(R.id.searchView);
         listView = (ListView) findViewById(R.id.lv1);
+        aperolButton = (Button)findViewById(R.id.aperol);
+
+        aperolButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(cocktails.this, AperolSpritz.class));
+            }
+        });
 
         list = new ArrayList<>();
         list.add("Aperol Spritz");
@@ -59,6 +71,7 @@ public class cocktails extends AppCompatActivity {
                 //    adapter.getFilter().filter(newText);
                 return false;
             }
+
         });
     }
 }
