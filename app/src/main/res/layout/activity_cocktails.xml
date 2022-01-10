@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cocktails">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="76dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="233dp"
+                android:text="Cocktails"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="32dp" />
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:iconifiedByDefault="false"
+                android:queryHint="Search Here" />
+
+            <ListView
+                android:id="@+id/lv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/searchView"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="233dp"
+                android:divider="#ad5"
+                android:dividerHeight="2dp" />
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/aperol"
+                    android:layout_width="1092px"
+                    android:layout_height="262px"
+                    app:srcCompat="@drawable/aperol___cocktail_page" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="262px"
+                    android:background="@android:color/transparent"></Button>
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/aviation"
+                    android:layout_width="1092px"
+                    android:layout_height="262px"
+                    app:srcCompat="@drawable/aviatation__cocktail_page" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="262px"
+                    android:background="@android:color/transparent"></Button>
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bahia_breeze"
+                    android:layout_width="1092px"
+                    android:layout_height="262px"
+                    app:srcCompat="@drawable/bahia_breeze__cocktail_page" />
+                />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="262px"
+                    android:background="@android:color/transparent"/>
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/city_rickey"
+                    android:layout_width="1092px"
+                    android:layout_height="262px"
+                    app:srcCompat="@drawable/city_rickeyl___cocktail_page" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="262px"
+                    android:background="@android:color/transparent" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="1092px"
+                android:layout_height="262px"
+                app:srcCompat="@drawable/cuba_libre___cocktail_page" />]
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cuba_libre"
+                    android:layout_width="1092px"
+                    android:layout_height="262px"
+                    app:srcCompat="@drawable/cuba_libre___cocktail_page" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="262px"
+                    android:background="@android:color/transparent" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="1092px"
+                android:layout_height="262px"
+                app:srcCompat="@drawable/espresso_martini___cocktail_page" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="1092px"
+                android:layout_height="262px"
+                app:srcCompat="@drawable/evreybodys_irish_" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="1092px"
+                android:layout_height="262px"
+                app:srcCompat="@drawable/mexican_firing_squad___cocktail_page" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="1092px"
+                android:layout_height="262px"
+                app:srcCompat="@drawable/mint_julep___cocktail_page" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="1092px"
+                android:layout_height="262px"
+                app:srcCompat="@drawable/mojito___cocktail_page" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="1092px"
+                android:layout_height="292px"
+                app:srcCompat="@drawable/pina_colada___cocktail_page_copy" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="1092px"
+                android:layout_height="292px"
+                app:srcCompat="@drawable/zombie____cocktail_page" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

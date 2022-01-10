@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thetipsybartender">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheTipsyBartender">
+        <activity
+            android:name=".ingredients"
+            android:exported="true" />
+        <activity
+            android:name=".cocktails"
+            android:exported="true" />
+        <activity
+            android:name=".Zombie002"
+            android:exported="true" />
+        <activity
+            android:name=".MexicanFiringSquad"
+            android:exported="true" />
+        <activity
+            android:name=".BahiaBreeze"
+            android:exported="true" />
+        <activity
+            android:name=".EverybodysIrish"
+            android:exported="true" />
+        <activity
+            android:name=".MintJulop"
+            android:exported="true" />
+        <activity
+            android:name=".CityRickey"
+            android:exported="true" />
+        <activity
+            android:name=".Aviation"
+            android:exported="true" />
+        <activity
+            android:name=".CubaLibre"
+            android:exported="true" />
+        <activity
+            android:name=".AperolSpritz"
+            android:exported="true" />
+        <activity
+            android:name=".EspressoMartini"
+            android:exported="true" />
+        <activity
+            android:name=".PinaColada"
+            android:exported="true" />
+        <activity
+            android:name=".Mojito002"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/font/realhead.xml" value="0.16302083333333334" />
+        <entry key="app/src/main/res/layout/activity_aperol_spritz.xml" value="0.2645243090099871" />
+        <entry key="app/src/main/res/layout/activity_aviation.xml" value="0.586086855638417" />
+        <entry key="app/src/main/res/layout/activity_bahia_breeze.xml" value="0.10181262419497784" />
+        <entry key="app/src/main/res/layout/activity_city_rickey.xml" value="0.42289275906676715" />
+        <entry key="app/src/main/res/layout/activity_cocktails.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_cuba_libre.xml" value="1.206960398571827" />
+        <entry key="app/src/main/res/layout/activity_espresso_martini.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/activity_everybodys_irish.xml" value="0.3597853062662719" />
+        <entry key="app/src/main/res/layout/activity_ingredients.xml" value="0.19401207788479896" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16660055533518445" />
+        <entry key="app/src/main/res/layout/activity_mexican_firing_squad.xml" value="0.5224491516345767" />
+        <entry key="app/src/main/res/layout/activity_mint_julop.xml" value="0.4172038102687575" />
+        <entry key="app/src/main/res/layout/activity_mojito.xml" value="0.27248470532910174" />
+        <entry key="app/src/main/res/layout/activity_mojito002.xml" value="0.4253746838314681" />
+        <entry key="app/src/main/res/layout/activity_pina_colada.xml" value="0.4049955396966994" />
+        <entry key="app/src/main/res/layout/activity_zombie.xml" value="0.10158176684911897" />
+        <entry key="app/src/main/res/layout/activity_zombie002.xml" value="0.21109623860895688" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
